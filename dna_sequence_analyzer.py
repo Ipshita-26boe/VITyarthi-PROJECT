@@ -50,15 +50,11 @@ if all (base in "ATGC" for base in Input_dna):
     rna = Input_dna.replace("T", "U")
 
     print("RNA sequence:", rna)
-    
     codons = []
 
 for i in range (0, len(Input_dna) - 2, 3):
     codon = Input_dna[i:i+3]
     codons.append(codon)
-
-
- 
     print ("Codons:", codons)
     start_codon = "ATG"
     stop_codons = ["TAA", "TAG", "TGA"]
