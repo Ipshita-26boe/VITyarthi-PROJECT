@@ -29,3 +29,15 @@ The project accepts a DNA sequence as input, validates the sequence, and perform
 
 ```bash
 python dna_sequence_analyzer.py
+
+## 💻 Example Output
+
+```text
+Enter DNA Sequence:  atg cgt aag ctt 
+
+--- Analysis Summary ---
+Cleaned Sequence: ATGCGTAAGCTT
+Sequence Length:  12 bases
+Base Counts:      A: 3 | T: 3 | G: 3 | C: 3
+GC Content:       50.00%
+Result:           Valid DNA Sequence
