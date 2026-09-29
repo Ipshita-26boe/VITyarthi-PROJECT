@@ -33,7 +33,7 @@ python dna_sequence_analyzer.py
 ## 💻 Example Output
 
 ```text
-Enter DNA Sequence:  atg cgt aag ctt 
+Enter DNA Sequence: ATG CGT AAG CTT                
 
 --- Analysis Summary ---
 Cleaned Sequence: ATGCGTAAGCTT
